@@ -1,2 +1,2 @@
-# personal--project-by-danish
-my personal project
+# js--project-by-danish
+my js project
