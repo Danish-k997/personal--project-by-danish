@@ -1,0 +1,47 @@
+.container{
+    height: 310px;
+    width: 335px;
+    display: flex;
+    position: relative;
+   margin: auto;
+   translate: -25% 27%;
+
+}
+body{
+  background-image:url(Purple\ Love.jpg) ;
+}
+   
+   
+.icon{
+    width:  50px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 
+         0 4px 20px 0 #5192b1, 0 8px 40px 0 #010100, 0 12px 60px 0 #b400ff;
+}
+img{
+    width: 521px;
+    height: 261px;
+    object-fit: cover;
+    box-shadow: 
+         0 4px 20px 0 #8787f9d4, 0 8px 40px 0 #f296f2bf, 0 12px 60px 0 #f71a1a; 
+         border-radius: 20px;
+}
+.upper-icon{
+    position: absolute;
+    top: 209px;
+    left:  123px;
+    display: flex;
+    gap: 30px;
+    
+}
+h1{
+    position: absolute;
+    left: 110px;
+    top: 37px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+    text-shadow: 2px 2px 4px #000000;
+
+}
