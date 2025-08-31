@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC-PLAYER</title>
+    <link rel="stylesheet" href="music-player.css">
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="tahal.jpg" id="song-image" srcset="">
+        </div>
+        <input type="range" min="0" max="100" value="50" id="volume">
+        <div class="text">
+            <h3 id="song-artist">Tahala anjum</h3>
+            <p id="song-title"> Why not meri jan</p>
+        </div>
+        <input type="range"  value="0" id="rang">
+        <audio  id="audio">
+            <source src="WHY NOT - Young Stunners _ Talha Anjum _ Talhah Yunus (Official Music Video)(MP3_160K).mp3">
+        </audio>
+       <div class="players">
+           <img src="previous.png"  alt="" srcset="">
+           <img src="play-button.png"  id="play" srcset="">
+           <img src="previous.png"  id="next-btn" alt="" srcset="">
+        </div>
+    </div>
+</body>
+<script src="music-player.js"></script>
+</html>

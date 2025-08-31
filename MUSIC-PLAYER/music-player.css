@@ -1,0 +1,75 @@
+.container{
+    width: 280px;
+    height: 400px;
+    position: relative;
+    left: 400px;
+    top: 30px;
+    border-radius: 3%;
+    background-image:url(Moonlit\ Asteroid.jpg) ;
+    box-shadow: 0 0 40px 10px #124c96, 0 0 80px 20px #292b2d;
+}
+body{
+    background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.img img{
+   border-radius: 77%;
+   width: 176px;
+   margin: 31px;
+   box-shadow: 0 0 40px 10px #124c96, 0 0 80px 20px #292b2d;
+}
+.text{
+    position: absolute;
+    left: 86px;
+    top: 214px;
+    color: white;
+}
+.text p {
+   margin: -17px -2px -1px 0;
+}
+#rang{
+    
+    width: 90%;
+    height: 6px;
+    background-color:wheat ;
+    cursor: pointer;
+    margin-left: 13px;
+    position: relative;
+    top:  30px;
+
+}
+#rang::-webkit-slider-thumb{
+ -webkit-appearance: none;
+ background-color: aqua;
+ width: 10px;
+ border-radius: 50%;
+ border: 8px solid #fff;
+ box-shadow: 0 5px rgb(30, 21, 39);
+}
+
+.players{
+    display: flex;
+    column-gap: 20px;
+}
+.players img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left:  70px;
+    top: 40px;
+}
+
+#audio{
+    margin-top:-45px;
+}
+#volume{
+    rotate: 270deg;
+    position: relative;
+    top: -84px;
+    left: -46px;
+}
