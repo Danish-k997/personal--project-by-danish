@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(135deg,skyblue,purple) ;
+   
+}
+.container .btn{
+   background: linear-gradient(135deg, #6d94b1, #00a3ffab);
+    padding: 8px 20px;
+    margin-left:  20px;
+    border-radius: 22%;
+    margin-top: 23px;
+
+}
+.note{
+    padding: 40px;
+    background-color: #fff;
+    margin: 15px;
+    width:310px;
+    height: 100px;
+    border-radius: 8px;
+    overflow:scroll;
+}
+.note img{
+    width: 20px;
+    height: 20px;
+    position:fixed;
+    bottom: 318px;
+    left: 295px;
+    cursor: pointer;
+}
