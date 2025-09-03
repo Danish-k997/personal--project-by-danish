@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #00f2fe, #4facfe, #6a11cb);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+#input {
+  padding: 10px 15px;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#GenraterQR,#resate{
+  padding: 10px 20px;
+  border: none;
+  background: #6a11cb;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+#GenraterQR,#resate:hover {
+  background: #2575fc;
+}
+
+#QR{
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
